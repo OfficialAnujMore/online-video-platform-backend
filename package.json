@@ -1,0 +1,15 @@
+{
+  "name": "online-video-platform-backend",
+  "version": "1.0.0",
+  "description": "Backend project for online video platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "Anuj More",
+  "license": "ISC"
+}
