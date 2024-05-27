@@ -3,4 +3,15 @@ import connectDB from "./db/index.js";
 
 dotnev.config({ path: "./env" });
 
-connectDB();
+const portNumber = process.env.PORT || 8000;
+
+connectDB()
+  .then(() => {
+    app.listen(portNumber, () => {
+      console.log(`Server is runnig on PORT ${portNumber}`);
+    });
+    
+  })
+  .catch((err) => {
+    console.log("MongoDB connection FAILED !! ", err);
+  });
