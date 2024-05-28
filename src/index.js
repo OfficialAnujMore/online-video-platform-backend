@@ -2,7 +2,7 @@ import dotnev from "dotenv";
 import connectDB from "./db/index.js";
 import app from "./app.js";
 
-dotnev.config({ path: "./env" });
+dotnev.config({ path: "./.env" });
 
 const portNumber = process.env.PORT || 8000;
 
