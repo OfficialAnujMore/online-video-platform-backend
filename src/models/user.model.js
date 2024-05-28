@@ -34,9 +34,6 @@ const userSchema = new Schema(
     coverImage: {
       type: String, // cloudinary url
     },
-    coverImage: {
-      type: String, // cloudinary url
-    },
     watchHistory: [
       {
         type: Schema.Types.ObjectId,
